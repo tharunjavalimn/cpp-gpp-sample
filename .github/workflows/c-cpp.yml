@@ -14,6 +14,6 @@ jobs:
 
     steps:
     - uses: actions/checkout@v3
-    - name: make
-      run: dir
+    - name: call batch file
+      run: .\CPP_compile.bat 
 
